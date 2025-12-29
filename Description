@@ -1,0 +1,36 @@
+When Geometry Becomes Chaos: The Double Pendulum 🌀📐
+
+What looks like a random, chaotic dance is actually ruled by exact mathematics.
+This system is the poster child of Chaos Theory: the double pendulum.
+
+What’s happening under the hood?
+
+🔹 1. Energy-based mechanics
+Instead of forces, we describe the system using the Lagrangian:
+L = T − V
+where T is kinetic energy and V is potential energy.
+The motion follows from the Euler–Lagrange equation (in compact form):
+d/dt(∂L/∂θ̇) − ∂L/∂θ = 0
+
+🔹 2. Coupled geometry
+The system is defined by two angles, θ₁ and θ₂.
+Because the second mass hangs from the first, its position depends on both angles:
+
+x₂ = L₁ sinθ₁ + L₂ sinθ₂
+
+y₂ = −L₁ cosθ₁ − L₂ cosθ₂
+
+🔹 3. Why chaos emerges
+The equations of motion are:
+
+Coupled (each arm affects the other)
+
+Non-linear (terms like sin(θ₁ − θ₂) and θ̇² appear)
+
+This leads to sensitive dependence on initial conditions:
+a change as small as 0.00001° in the starting angle produces a completely different trajectory within seconds.
+
+🔑 The takeaway
+The system is deterministic (fully rule-based), yet unpredictable in the long term.
+
+That paradox is the essence of chaos.
